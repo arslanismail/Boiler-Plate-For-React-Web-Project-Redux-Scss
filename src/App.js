@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
-import './App.css';
+import './App.scss';
 import {Provider} from 'react-redux';
 import Posts from './components/Posts';
 import PostForm from './components/PostForm';
@@ -31,7 +31,9 @@ class App extends Component {
         </header>
         <PostForm/>
         <hr />
+        <div class="scss-testing">
         <Posts/>
+        </div>
       </div>
       </Provider>
     );
